@@ -25,4 +25,4 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Test
       run: |
-        echo run the tests here ${{ TOTO }}
+        echo run the tests here ${{ secrets.TOTO }}
